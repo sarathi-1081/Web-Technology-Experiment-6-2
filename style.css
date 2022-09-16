@@ -1,0 +1,48 @@
+.outerdiv {
+  width: 100%;
+  margin: 100px;
+}
+
+.wall {
+  border-left: 100px solid blue;
+  height: 300px;
+  position: absolute;
+  left: 76%;
+  margin-left: -3px;
+  top: 50px;
+}
+
+#danger {
+  font-size: 22px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 180px;
+  right: 364px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.btn {
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startbtn,
+.stopbtn,
+.resetbtn {
+  font-size: 20px;
+  width: 160px;
+  height: 40px;
+  color: white;
+  background-color: blue;
+  margin: 25px;
+  border: 2px solid blue;
+}
