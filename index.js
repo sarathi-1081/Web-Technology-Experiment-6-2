@@ -4,7 +4,7 @@ var timer = null;
 function init() {
   car = document.getElementById("car");
   car.style.position = "relative";
-  car.style.left = "5px";
+  car.style.left = "-100px";
 }
 
 function move() {
@@ -23,5 +23,5 @@ function stop() {
 
 function reset() {
   document.getElementById("danger").style.visibility = "hidden";
-  car.style.left = "5px";
+  car.style.left = "-100px";
 }
