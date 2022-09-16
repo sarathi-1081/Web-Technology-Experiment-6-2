@@ -46,3 +46,9 @@
   margin: 25px;
   border: 2px solid blue;
 }
+
+footer {
+  margin: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
